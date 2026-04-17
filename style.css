@@ -125,6 +125,11 @@ a:hover {
     color: var(--text-pure-white);
     transition: 0.3s;
 }
+.nav-links a.nav-active {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 2px;
+}
 .nav-links a:hover {
     color: var(--primary-color);
 }
